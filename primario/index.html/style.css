@@ -1,155 +1,6 @@
 *{
     margin: 0px;
     border: 0px;
-    padding: 0px;
-}
-html{
-    font-size: 62,5%;
-}
-header{
-    background-color: rgba(0, 0, 0, 1);
-    color: #fff;
-    padding: 10px;
-    font-family: Arial;
-    width: 100%;
-    position: fixed;
-    
-}
-h3{
-    font-size: 1.9rem;
-    font-family: arial;
-    margin: 0;
-    padding: 5px;
-}
-h4{
-    font-size: 1rem;
-    font-family: arial;
-    margin: 0;
-    padding: 5px;
-    padding-left: 5px;
-}
-body{
-    background-color: rgba(245, 245, 245, 1.0);
-}
-.conteiner{
-    display: block;
-    background-color: #fff;
-    width: 95%;
-    box-shadow: 2px 2px #808080;
-    margin: 0 auto;
-    max-width: 800px;
-    max-height: 800px;
-    min-width: 0;
-    min-height: 0;
-    margin-top: 40px ;
-}
-footer{
-    font-family: arial;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 1);
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom:5px ;
-}
-p{
-    font-family: arial;
-    text-align: justify;
-    padding: 10px;
-    font-size: 1.6rem;
-
-}
-h1{
-    font-family: arial;
-    text-align: justify;
-    padding-top: 10px;
-    font-size: 2rem;
-}
-h2{
-    font-family: arial;
-    text-align: justify;
-    padding-top: 10px;
-    font-size: 1.9rem;
-
-}
-.texto-footer{
-    text-align: center;
-    font-family: arial;
-    padding-top:10px ;
-    font-size: 1.6rem;
-    padding-bottom: 10px;
-}
-.compra{
-    background-color: rgba(255, 255, 0, 1.0);
-    width: 150px;
-    height: 100px;
-    position: fixed;
-    right: 0px;
-    text-align: center;
-    margin-top: 29%;
-    z-index: 1;
-}
-h5{
-    font-family: arial;
-    text-align: center;
-    padding: 1px;
-    font-size: 1.9rem;
-    
-}
-button{
-    font-family: arial;
-    text-align: center;
-    padding: 5px;
-    font-size: 1.9rem;
-    background-color: rgba(50, 205, 50, 1.0);
-    color: #fff;
-    border: solid ;
-}
-#grid-container{
-    margin-top: 5px;
-    background-color: rgba(255, 127, 80, 1.0);
-}
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
-    grid-gap: 1px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-.grid div{
-    background-color: #fff;
-    font-family: arial;
-    text-align: center;
-    font-size: 1.6rem;
-    padding: 2px;
-}
-#fomulario{
-    background-color: rgba(173, 216, 230, 1.0);
-}
-.formulario-contato{
-    font-family: arial;
-    font-size: 1.8rem;
-    padding: 10px;
-    text-align: left;
-    margin-left: 5%;
-    font-weight: bold;
-}
-input{
-    font-family: sans-serif;
-    font-size: 1.7rem;
-    padding: 5px;
-    width: 60%;
-}
-.dados-formulario{
-    width: 80%;
-}
-nav{
-    text-align: right;
-    margin-top:10px ;
-    font-weight: bold;
-    font-family: arial;
-    font-size: 1.6rem;
-    margin-right: 2%;
-    word-spacing: 10px;
 }
 a{
     text-decoration: none;
@@ -163,7 +14,7 @@ a:hover{
 .logo{
     font-size: 24px;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 9px;
 }
 nav{
     display: flex;
@@ -171,5 +22,18 @@ nav{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     background: rgb(50, 36, 66);
-    height: 8vh;
+    height: 10vh;
+}
+main{
+    background: url(../../img/fundo.jpg) no-repeat center center;
+    background-size: cover;
+    height: 95vh;
+}
+nav-list {
+    list-style: none;
+    display: flex;
+}
+nav-list li {
+    letter-spacing: 3px;
+    margin-left: 20px;
 }
