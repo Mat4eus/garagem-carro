@@ -29,11 +29,32 @@ main{
     background-size: cover;
     height: 95vh;
 }
-nav-list {
+.nav-list {
     list-style: none;
     display: flex;
 }
-nav-list li {
+.nav-list li {
     letter-spacing: 3px;
-    margin-left: 20px;
+    margin-left: 50px;
+}
+.mobile-menu{
+    display: none;
+    cursor:pointer;
+}
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: aliceblue;
+    margin: 8px;
+}
+@media (max-width 1100px){
+
+    .nav-list{
+        position: absolute;
+        top: 8hv;
+        right: 0;
+        width:58vw;
+        height:92vh;
+        background: #23232e;
+    }
 }
