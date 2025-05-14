@@ -47,7 +47,7 @@ main{
     background-color: aliceblue;
     margin: 8px;
 }
-@media (max-width 1100px){
+@media (max-width: 1100px){
     body{
         overflow-x: hidden;
     }
@@ -65,6 +65,7 @@ main{
     }
     .nav-list li{
         margin-left: 0;
+        opacity: 0;
     }
     .mobile-menu{
         display: block;
