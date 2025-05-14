@@ -47,9 +47,9 @@ main{
     background-color: aliceblue;
     margin: 8px;
 }
-@media (max-width 1100px){
+@media (max-width: 1100px) {
     body{
-        overflorw-x:hidden;
+        overflow-x: hidden;
     }
     .nav-list{
         position: absolute;
@@ -62,7 +62,6 @@ main{
         align-items: center;
         justify-content: space-around;
         transform: translateX(100%);
-
     }
     .nav-list li{
         margin-left: 0;
@@ -72,5 +71,5 @@ main{
     }
 }   
 .nav-list.active{
-    transform: translarex(0);
+    transform: translateX(0);
 }
