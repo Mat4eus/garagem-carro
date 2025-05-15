@@ -2,21 +2,23 @@ class MobileNavbar {
     constructor(mobileMenu,navlist,navLinks) {
         this.mobileMenu = document.querySelector('.mobile-menu');
         this.navlist = document.querySelector('.nav-list');
-        this.navLinks = document.querySelectorAll('.nav-list');
+        this.navLinks = document.querySelectorAll('.nav-links');
         this.actveClass = 'active';
+
 
         this.handleClick = this.handleClick.bind(this);
     }
 
     animateLinks() {
-        this.navLinks.forEach((link, index) => {
+        this.navLinks.forEach((link,index) => {
             link.style.animation
-               ?   (link.style.animation = "")
-               :   (link.style.animation = "navLinkFade 0.5s ease forwards $ {index / 7 + 0.3}s");    
+               ?   (link.style.animation = "navLinkFade 0.5s ease forwards $ {index / 7 + 0.3}s")
+               :   (link.style.animation = "");    
         });
     }
     handleClick(){
         this.navlist.classList.toggle(this.actveClass);
+        this.mobileMenu.classList.toggle(this.actveClass);
         this.animateLinks();
     }
 
