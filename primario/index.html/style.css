@@ -96,3 +96,18 @@ main{
 .mobile-menu.active .line3{
     transform: rotate(45deg) translate(-5px, -7px);
 }
+.rodape{
+    background: rgb(50, 36, 66);
+    padding: 20px; ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(117, 109, 109);
+    position: top;
+}
+.titulo-rodape{
+    font-size: 20px;
+    color: rgb(233, 233, 220);
+}
