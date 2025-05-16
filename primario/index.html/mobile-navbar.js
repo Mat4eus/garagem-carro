@@ -2,7 +2,7 @@ class MobileNavbar {
     constructor(mobileMenu,navlist,navLinks) {
         this.mobileMenu = document.querySelector('.mobile-menu');
         this.navlist = document.querySelector('.nav-list');
-        this.navLinks = document.querySelectorAll('.nav-links');
+        this.navLinks = document.querySelectorAll('.navlinks');
         this.actveClass = 'active';
         this.rodape = document.querySelector('.rodape');
 
@@ -13,7 +13,7 @@ class MobileNavbar {
         this.navLinks.forEach((link,index) => {
             link.style.animation
                ?   (link.style.animation = "")
-               :   (link.style.animation = "navLinkFade 0.5s ease forwards $ {index / 7 + 0.3}s");    
+               :   (link.style.animation = "navLinkFade 0.5s ease forwards 0.3s");    
         });
     }
     handleClick(){
