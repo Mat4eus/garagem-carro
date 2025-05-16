@@ -101,13 +101,21 @@ main{
     padding: 20px; ;
     justify-content: center;
     align-items: center;
-    display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: rgb(117, 109, 109);
-    position: top;
+    margin: 0px 2px 2px 0px;
 }
 .titulo-rodape{
     font-size: 20px;
     color: rgb(233, 233, 220);
+}
+.rodape-div{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(50, 36, 66);
+    height: 8vh;
 }
