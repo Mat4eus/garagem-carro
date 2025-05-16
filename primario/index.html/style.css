@@ -104,15 +104,14 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: rgb(117, 109, 109);
-    margin: 0px 2px 2px 0px;
+    margin: 0px 0px 0px 0px;
 }
 .titulo-rodape{
     font-size: 20px;
     color: rgb(233, 233, 220);
 }
 .rodape-div{
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 55px 55px 55px 55px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -121,11 +120,17 @@ main{
     height: 8vh;
     font-size: 1.5vh;
 }
-.rodape-div.active{
-    color: rgb(117, 109, 109);
-    transition: 0.3s;
+.rodape-div1{
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+
 }
-@media (max-width: 834px){
+.rodape-div2{
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 40px
+}
+@media (max-width: 1460px){
     .rodape-div{
         flex-direction: column;
         height: 20vh;
@@ -142,5 +147,15 @@ main{
         height: 8vh;
         font-size: 1.5vh;
     }
+    .rodape-div1{
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    padding-top: 40px;
+    }
+    .rodape-div2{
+        padding-right: 2.5%;
+        padding-left: 2.5%;
+        padding-top: 40px;
 
+    }
 }
