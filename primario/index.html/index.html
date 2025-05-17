@@ -1,80 +1,154 @@
 <!Doctype html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
-	<title>Fronte-end Essencial</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+    <title>Garagem TopCar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<nav>	
-			<a class="logo" href="/">Garagem</a>
-			<div class="mobile-menu">
-				<div class="line1"></div>
-				<div class="line2"></div>
-				<div class="line3"></div>
-			</div>			
-			<ul class="nav-list">
-				<li><a href="#">cadastrar/login</a></li>
-				<li><a href="#">Serviços</a></li>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Contato</a></li>
-			</ul>
-		</nav>
-	</header>	
-	<main> 
-		<strong><h2 class="textodeboasvindas">Bem-vindo à Garagem TopCar!</h2></strong>
-		<section class="opcaoDeCarros">
-			<div class="opcaocarro-divs">
-				<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V1kb19HGVj12TQJoO_GHaP8BPV0h8Bq-eg&s" class="opcao-carro">
-					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9V1kb19HGVj12TQJoO_GHaP8BPV0h8Bq-eg&s" alt="imagem carro 4">
-				</a>
-				<h2><a href="#">Carro 4</a></h2>
-				<ul>
-					<li >
-						<a class="detalhes" href="#">Detalhes</a>
-						<p>Preço: R$ 100.000,00</p>
-					</li>
-				</ul>
-			</div>
-		</section>
-	</main>
-	<footer class="rodape">
-		<h1><a class="logo"  href="/">Garagem</a></h1>
-		<div class="rodape-div">
-			<nav class="rodape-nav">
-				<div class="rodape-div1">
-					<h1 class="rodape-h1">Contato</h1>
-					<ul>
-						<li><strong>📞Telefone:</strong><a href="#">(11) 91234-5678</a></li>
-						<li><strong>📱WhatsApp:</strong><a href="#"> (11) 98765-4321</a></li>
-						<li><strong>📧E-mail:</strong><a href="#">contato@garagemtopcar.com.br</a></li>
-					</ul>
-				</div>
-				<div class="rodape-div2">
-					<h1 class="rodape-h1">Endereços</h1>
-					<ul>
-						<li><strong>📍Filial 1:</strong><a href="#"> Rua dos Motores, 123 - Centro, São Paulo - SP</a></li>
-						<li><strong>📍Filial 2:</strong><a href="#"> Rua dos cachadores, 32 - florianopoles, Santa Catarina - SC</a></li>
-						<li><strong>📍Sede:</strong><a href="#"> Endereço Desconhecido , XXX - Desconhecido, Desconhecido - DC</a></li>
-					</ul>
-				</div>
-				<div class="rodape-div1">
-					<h1 class="rodape-h1">Redes Sociais</h1>
-					<ul>
-						<li class=""><strong>Instagram:</strong><a href="https://instagram.com/garagemtopcar" target="_blank">@garagemtopcar</a></li>
-						<li><strong>XXXXXXXX:</strong><a href="#"> 2 </a></li>
-						<li><strong>XXXXXXXX:</strong><a href="#"> 3 </a></li>
-					</ul>		
-				</div>
-			</nav>
-		</div>
-		<p style="margin-top: 10px;">&copy; 2025 Garagem TopCar. Todos os direitos reservados.</p>
-		</footer>
+    <header>
+        <nav>
+            <a class="logo" href="/">Garagem</a>
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Cadastrar/Login</a></li>
+                <li><a href="#catalogo">Serviços</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-	<script src="mobile-navbar.js"></script>
+    <main>
+        <section id="bem-vindo">
+            <div class="textodeboasvindas">
+                <h2><strong>Bem-vindo à Garagem TopCar!</strong></h2>
+                <p>Sua nova máquina está <a href="#catalogo">aqui</a>! Venha ver nosso catálogo.</p>
+            </div>
+        </section>
+
+        <section id="catalogo" class="opcaoDeCarros">
+            <!-- CARRO 1 -->
+            <div class="opcaocarro-divs">
+                <a href="#" class="opcao-carro">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/06/19/15/car-1957037_960_720.jpg" alt="Carro Esportivo Mustang GT">
+                </a>
+                <div>
+                    <h2>Mustang GT</h2>
+                    <h3><a class="detalhes" href="#">Detalhes</a></h3>
+                </div>
+                <ul>
+                    <li><strong>Modelo:</strong> Mustang GT 2020</li>
+                    <li><strong>Preço:</strong> R$ 350.000,00</li>
+                </ul>
+            </div>
+
+            <!-- CARRO 2 -->
+            <div class="opcaocarro-divs">
+                <a href="#" class="opcao-carro">
+                    <img src="https://cdn.pixabay.com/photo/2012/05/29/00/43/car-49278_960_720.jpg" alt="Chevrolet Bel Air Clássico">
+                </a>
+                <div>
+                    <h2>Chevrolet Bel Air</h2>
+                    <h3><a class="detalhes" href="#">Detalhes</a></h3>
+                </div>
+                <ul>
+                    <li><strong>Modelo:</strong> Bel Air 1957</li>
+                    <li><strong>Preço:</strong> R$ 250.000,00</li>
+                </ul>
+            </div>
+
+            <!-- CARRO 3 -->
+            <div class="opcaocarro-divs">
+                <a href="#" class="opcao-carro">
+                    <img src="https://cdn.pixabay.com/photo/2015/01/19/13/51/car-604019_960_720.jpg" alt="SUV Range Rover Evoque">
+                </a>
+                <div>
+                    <h2>Range Rover Evoque</h2>
+                    <h3><a class="detalhes" href="#">Detalhes</a></h3>
+                </div>
+                <ul>
+                    <li><strong>Modelo:</strong> Evoque 2022</li>
+                    <li><strong>Preço:</strong> R$ 420.000,00</li>
+                </ul>
+            </div>
+
+            <!-- CARRO 4 -->
+            <div class="opcaocarro-divs">
+                <a href="#" class="opcao-carro">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/27/22/22/audi-1283623_960_720.jpg" alt="Audi A7 Sedan de Luxo">
+                </a>
+                <div>
+                    <h2>Audi A7</h2>
+                    <h3><a class="detalhes" href="#">Detalhes</a></h3>
+                </div>
+                <ul>
+                    <li><strong>Modelo:</strong> A7 Sportback 2023</li>
+                    <li><strong>Preço:</strong> R$ 530.000,00</li>
+                </ul>
+            </div>
+
+            <!-- CARRO 5 -->
+            <div class="opcaocarro-divs">
+                <a href="#" class="opcao-carro">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/18/20/26/lamborghini-165609_960_720.jpg" alt="Lamborghini Gallardo">
+                </a>
+                <div>
+                    <h2>Lamborghini Gallardo</h2>
+                    <h3><a class="detalhes" href="#">Detalhes</a></h3>
+                </div>
+                <ul>
+                    <li><strong>Modelo:</strong> Gallardo 2013</li>
+                    <li><strong>Preço:</strong> R$ 950.000,00</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato" class="rodape">
+        <h1 class="rodape-h1"><a class="logo" href="/">Garagem</a></h1>
+        <div class="rodape-div">
+            <nav class="rodape-nav">
+                <!-- Contato -->
+                <div class="rodape-div1">
+                    <h2>Contato</h2>
+                    <ul>
+                        <li><strong>📞 Telefone:</strong> <a href="tel:11912345678">(11) 91234-5678</a></li>
+                        <li><strong>📱 WhatsApp:</strong> <a href="https://wa.me/5511987654321" target="_blank">(11) 98765-4321</a></li>
+                        <li><strong>📧 E-mail:</strong> <a href="mailto:contato@garagemtopcar.com.br">contato@garagemtopcar.com.br</a></li>
+                    </ul>
+                </div>
+
+                <!-- Endereços -->
+                <div class="rodape-div2">
+                    <h2>Endereços</h2>
+                    <ul>
+                        <li><strong>📍 Filial 1:</strong> Rua dos Motores, 123 - Centro, São Paulo - SP</li>
+                        <li><strong>📍 Filial 2:</strong> Rua dos Cachadores, 32 - Florianópolis - SC</li>
+                        <li><strong>📍 Sede:</strong> Endereço Desconhecido, XXX - DC</li>
+                    </ul>
+                </div>
+
+                <!-- Redes Sociais -->
+                <div class="rodape-div1">
+                    <h2>Redes Sociais</h2>
+                    <ul>
+                        <li><strong>Instagram:</strong> <a href="https://instagram.com/garagemtopcar" target="_blank">@garagemtopcar</a></li>
+                        <li><strong>Facebook:</strong> <a href="#" target="_blank">/GaragemTopCar</a></li>
+                        <li><strong>Twitter (X):</strong> <a href="#" target="_blank">@GaragemTopCar</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <p class="pf">&copy; 2025 Garagem TopCar. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="mobile-navbar.js"></script>
 </body>
 </html>
