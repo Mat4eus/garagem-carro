@@ -283,3 +283,8 @@ main > .opcaoDeCarros {
     padding-top: 10%;
     font-size: 200%;
 }
+
+strong {
+    color: rgb(233, 233, 220);
+    font-weight: bold;
+}
